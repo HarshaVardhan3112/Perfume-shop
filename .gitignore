@@ -1,0 +1,37 @@
+# Root-level ignores
+.env
+.env.local
+.vscode/
+.idea/
+*.log
+*.tmp
+*.DS_Store
+npm-debug.log*
+
+# Backend-specific
+backend/node_modules/
+backend/.env
+
+# Frontend-specific
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Frontend logs
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+# Editor directories and files inside frontend
+frontend/.vscode/*
+!frontend/.vscode/extensions.json
+frontend/.idea
+frontend/*.suo
+frontend/*.ntvs*
+frontend/*.njsproj
+frontend/*.sln
+frontend/*.sw?

@@ -1,0 +1,17 @@
+.home-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* This ensures footer stays at bottom if content is short */
+.home-page>*:last-child {
+  margin-top: auto;
+}
+
+/* Responsive padding adjustment */
+@media (max-width: 768px) {
+  .home-page {
+    padding-bottom: 2rem;
+  }
+}
